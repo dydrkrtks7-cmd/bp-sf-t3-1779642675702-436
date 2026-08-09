@@ -1,386 +1,386 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>마포 셔츠룸 | 성우이벤트 프리미엄 시스템 - 정보</title>
-    <meta name="description" content="마포 셔츠룸 성우이벤트의 체계적인 시스템과 전문 스태프가 제공하는 프리미엄 서비스 정보를 확인하세요. 정확한 데이터와 투명한 운영이 완성하는 완벽한 공간.">
-    <meta name="keywords" content="마포 셔츠룸, 성우이벤트, 마포 셔츠룸 시스템, 마포 셔츠룸 정보, 셔츠룸 예약, 마포구 셔츠룸, 프리미엄 셔츠룸">
-    <meta name="author" content="성우이벤트">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://sf-t3-1779642675702-436.maphoshirts.xyz/about.html">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="마포 셔츠룸 | 성우이벤트 프리미엄 시스템 - 정보">
-    <meta property="og:description" content="마포 셔츠룸 성우이벤트의 체계적인 시스템과 전문 스태프가 제공하는 프리미엄 서비스 정보를 확인하세요. 정확한 데이터와 투명한 운영이 완성하는 완벽한 공간.">
-    <style>
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html {
-            scroll-behavior: smooth;
-            font-size: 16px;
-        }
-        body {
-            font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: #0a0a0a;
-            color: #e0e0e0;
-            line-height: 1.7;
-            overflow-x: hidden;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-        /* Sticky Nav */
-        nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            z-index: 1000;
-            background: rgba(10, 10, 10, 0.95);
-            backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(255, 215, 0, 0.08);
-        }
-        .nav-inner {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 16px 24px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .nav-logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #ffd700;
-            text-decoration: none;
-            letter-spacing: 1px;
-        }
-        .nav-links {
-            display: flex;
-            gap: 32px;
-            align-items: center;
-        }
-        .nav-links a {
-            color: #b0b0b0;
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: color 0.3s ease;
-            letter-spacing: 0.5px;
-        }
-        .nav-links a:hover {
-            color: #ffd700;
-        }
-        .hamburger {
-            display: none;
-            flex-direction: column;
-            cursor: pointer;
-            gap: 5px;
-            background: none;
-            border: none;
-            padding: 4px;
-        }
-        .hamburger span {
-            width: 28px;
-            height: 2px;
-            background: #ffd700;
-            transition: all 0.3s ease;
-        }
-        /* Hero */
-        .hero {
-            padding: 160px 0 80px;
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
-            position: relative;
-        }
-        .hero::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(circle at 30% 50%, rgba(255, 215, 0, 0.03) 0%, transparent 50%);
-            pointer-events: none;
-        }
-        .hero-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 60px;
-            align-items: center;
-            position: relative;
-            z-index: 1;
-        }
-        .hero-content h1 {
-            font-size: 3.2rem;
-            font-weight: 700;
-            color: #ffffff;
-            line-height: 1.2;
-            margin-bottom: 24px;
-        }
-        .hero-content h1 span {
-            color: #ffd700;
-        }
-        .hero-content p {
-            font-size: 1.1rem;
-            color: #a0a0a0;
-            margin-bottom: 32px;
-            max-width: 480px;
-        }
-        .hero-content .cta-btn {
-            display: inline-block;
-            padding: 14px 40px;
-            background: #ffd700;
-            color: #0a0a0a;
-            text-decoration: none;
-            font-weight: 700;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-            font-size: 1rem;
-            letter-spacing: 0.5px;
-        }
-        .hero-content .cta-btn:hover {
-            background: #e6c200;
-            transform: translateY(-2px);
-            box-shadow: 0 8px 24px rgba(255, 215, 0, 0.2);
-        }
-        .hero-visual {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .hero-visual .stat-block {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 215, 0, 0.1);
-            border-radius: 12px;
-            padding: 40px;
-            width: 100%;
-            max-width: 420px;
-        }
-        .hero-visual .stat-block .stat-number {
-            font-size: 3.8rem;
-            font-weight: 700;
-            color: #ffd700;
-            line-height: 1;
-            margin-bottom: 8px;
-        }
-        .hero-visual .stat-block .stat-label {
-            font-size: 0.95rem;
-            color: #888;
-            letter-spacing: 0.5px;
-        }
-        .hero-visual .stat-block .stat-desc {
-            margin-top: 16px;
-            font-size: 0.9rem;
-            color: #a0a0a0;
-            border-top: 1px solid rgba(255, 215, 0, 0.08);
-            padding-top: 16px;
-        }
-        /* Sections common */
-        .section {
-            padding: 80px 0;
-        }
-        .section-title {
-            font-size: 2.2rem;
-            font-weight: 700;
-            color: #ffffff;
-            text-align: center;
-            margin-bottom: 16px;
-        }
-        .section-subtitle {
-            text-align: center;
-            color: #888;
-            font-size: 1rem;
-            max-width: 600px;
-            margin: 0 auto 48px;
-        }
-        /* Info Grid */
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 24px;
-        }
-        .info-card {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid rgba(255, 215, 0, 0.06);
-            border-radius: 12px;
-            padding: 32px 24px;
-            transition: all 0.3s ease;
-        }
-        .info-card:hover {
-            border-color: rgba(255, 215, 0, 0.2);
-            transform: translateY(-4px);
-            background: rgba(255, 255, 255, 0.04);
-        }
-        .info-card .card-icon {
-            font-size: 2rem;
-            margin-bottom: 16px;
-            display: block;
-        }
-        .info-card h3 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: #ffffff;
-            margin-bottom: 12px;
-        }
-        .info-card p {
-            font-size: 0.9rem;
-            color: #999;
-            line-height: 1.6;
-        }
-        .info-card .highlight {
-            color: #ffd700;
-            font-weight: 500;
-        }
-        /* Data Table */
-        .data-table-wrap {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid rgba(255, 215, 0, 0.08);
-            border-radius: 12px;
-            overflow: hidden;
-        }
-        .data-table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        .data-table th {
-            background: rgba(255, 215, 0, 0.05);
-            color: #ffd700;
-            font-weight: 600;
-            padding: 16px 20px;
-            text-align: left;
-            font-size: 0.9rem;
-            letter-spacing: 0.5px;
-        }
-        .data-table td {
-            padding: 14px 20px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
-            color: #b0b0b0;
-            font-size: 0.9rem;
-        }
-        .data-table tr:last-child td {
-            border-bottom: none;
-        }
-        .data-table .metric {
-            color: #ffd700;
-            font-weight: 500;
-        }
-        /* FAQ */
-        .faq-list {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .faq-item {
-            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-            padding: 20px 0;
-        }
-        .faq-item:first-child {
-            border-top: 1px solid rgba(255, 255, 255, 0.06);
-        }
-        .faq-question {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            cursor: pointer;
-            font-size: 1rem;
-            font-weight: 500;
-            color: #ffffff;
-            user-select: none;
-        }
-        .faq-question .toggle {
-            color: #ffd700;
-            font-size: 1.2rem;
-            transition: transform 0.3s ease;
-        }
-        .faq-answer {
-            margin-top: 12px;
-            font-size: 0.9rem;
-            color: #999;
-            line-height: 1.7;
-            display: none;
-        }
-        .faq-answer.active {
-            display: block;
-        }
-        /* Footer */
-        footer {
-            background: #0a0a0a;
-            border-top: 1px solid rgba(255, 215, 0, 0.06);
-            padding: 40px 0;
-            text-align: center;
-        }
-        footer p {
-            color: #666;
-            font-size: 0.85rem;
-            letter-spacing: 0.3px;
-        }
-        footer .footer-tel {
-            color: #ffd700;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
-            display: block;
-            margin-bottom: 8px;
-        }
-        /* Responsive */
-        @media (max-width: 768px) {
-            .nav-links {
-                display: none;
-                flex-direction: column;
-                background: rgba(10, 10, 10, 0.98);
-                position: absolute;
-                top: 64px;
-                left: 0;
-                width: 100%;
-                padding: 20px 24px;
-                gap: 16px;
-                border-bottom: 1px solid rgba(255, 215, 0, 0.08);
-            }
-            .nav-links.active {
-                display: flex;
-            }
-            .hamburger {
-                display: flex;
-            }
-            .hero-grid {
-                grid-template-columns: 1fr;
-                gap: 40px;
-                text-align: center;
-            }
-            .hero-content p {
-                margin: 0 auto 32px;
-            }
-            .hero-content h1 {
-                font-size: 2.2rem;
-            }
-            .info-grid {
-                grid-template-columns: 1fr;
-            }
-            .section-title {
-                font-size: 1.8rem;
-            }
-            .hero-visual .stat-block {
-                padding: 28px;
-            }
-            .hero-visual .stat-block .stat-number {
-                font-size: 2.8rem;
-            }
-            .data-table th, .data-table td {
-                padding: 12px 14px;
-                font-size: 0.8rem;
-            }
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>마포 셔츠룸 | 성우이벤트 프리미엄 시스템 - 정보</title>
+ <meta name="description" content="마포 셔츠룸 성우이벤트의 체계적인 시스템과 전문 스태프가 제공하는 프리미엄 서비스 정보를 확인하세요. 정확한 데이터와 투명한 운영이 완성하는 완벽한 공간.">
+ <meta name="keywords" content="마포 셔츠룸, 성우이벤트, 마포 셔츠룸 시스템, 마포 셔츠룸 정보, 셔츠룸 예약, 마포구 셔츠룸, 프리미엄 셔츠룸">
+ <meta name="author" content="성우이벤트">
+ <meta name="robots" content="index, follow">
+ <link rel="canonical" href="https://sf-t3-1779642675702-436.maphoshirts.xyz/about.html">
+ <meta property="og:type" content="website">
+ <meta property="og:title" content="마포 셔츠룸 | 성우이벤트 프리미엄 시스템 - 정보">
+ <meta property="og:description" content="마포 셔츠룸 성우이벤트의 체계적인 시스템과 전문 스태프가 제공하는 프리미엄 서비스 정보를 확인하세요. 정확한 데이터와 투명한 운영이 완성하는 완벽한 공간.">
+ <style>
+ *, *::before, *::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ html {
+ scroll-behavior: smooth;
+ font-size: 16px;
+ }
+ body {
+ font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+ background: #0a0a0a;
+ color: #e0e0e0;
+ line-height: 1.7;
+ overflow-x: hidden;
+ }
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+ /* Sticky Nav */
+ nav {
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100%;
+ z-index: 1000;
+ background: rgba(10, 10, 10, 0.95);
+ backdrop-filter: blur(12px);
+ border-bottom: 1px solid rgba(255, 215, 0, 0.08);
+ }
+ .nav-inner {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 16px 24px;
+ max-width: 1200px;
+ margin: 0 auto;
+ }
+ .nav-logo {
+ font-size: 1.5rem;
+ font-weight: 700;
+ color: #ffd700;
+ text-decoration: none;
+ letter-spacing: 1px;
+ }
+ .nav-links {
+ display: flex;
+ gap: 32px;
+ align-items: center;
+ }
+ .nav-links a {
+ color: #b0b0b0;
+ text-decoration: none;
+ font-size: 0.9rem;
+ font-weight: 500;
+ transition: color 0.3s ease;
+ letter-spacing: 0.5px;
+ }
+ .nav-links a:hover {
+ color: #ffd700;
+ }
+ .hamburger {
+ display: none;
+ flex-direction: column;
+ cursor: pointer;
+ gap: 5px;
+ background: none;
+ border: none;
+ padding: 4px;
+ }
+ .hamburger span {
+ width: 28px;
+ height: 2px;
+ background: #ffd700;
+ transition: all 0.3s ease;
+ }
+ /* Hero */
+ .hero {
+ padding: 160px 0 80px;
+ background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+ position: relative;
+ }
+ .hero::after {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: radial-gradient(circle at 30% 50%, rgba(255, 215, 0, 0.03) 0%, transparent 50%);
+ pointer-events: none;
+ }
+ .hero-grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 60px;
+ align-items: center;
+ position: relative;
+ z-index: 1;
+ }
+ .hero-content h1 {
+ font-size: 3.2rem;
+ font-weight: 700;
+ color: #ffffff;
+ line-height: 1.2;
+ margin-bottom: 24px;
+ }
+ .hero-content h1 span {
+ color: #ffd700;
+ }
+ .hero-content p {
+ font-size: 1.1rem;
+ color: #a0a0a0;
+ margin-bottom: 32px;
+ max-width: 480px;
+ }
+ .hero-content .cta-btn {
+ display: inline-block;
+ padding: 14px 40px;
+ background: #ffd700;
+ color: #0a0a0a;
+ text-decoration: none;
+ font-weight: 700;
+ border-radius: 4px;
+ transition: all 0.3s ease;
+ font-size: 1rem;
+ letter-spacing: 0.5px;
+ }
+ .hero-content .cta-btn:hover {
+ background: #e6c200;
+ transform: translateY(-2px);
+ box-shadow: 0 8px 24px rgba(255, 215, 0, 0.2);
+ }
+ .hero-visual {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ .hero-visual .stat-block {
+ background: rgba(255, 255, 255, 0.03);
+ border: 1px solid rgba(255, 215, 0, 0.1);
+ border-radius: 12px;
+ padding: 40px;
+ width: 100%;
+ max-width: 420px;
+ }
+ .hero-visual .stat-block .stat-number {
+ font-size: 3.8rem;
+ font-weight: 700;
+ color: #ffd700;
+ line-height: 1;
+ margin-bottom: 8px;
+ }
+ .hero-visual .stat-block .stat-label {
+ font-size: 0.95rem;
+ color: #888;
+ letter-spacing: 0.5px;
+ }
+ .hero-visual .stat-block .stat-desc {
+ margin-top: 16px;
+ font-size: 0.9rem;
+ color: #a0a0a0;
+ border-top: 1px solid rgba(255, 215, 0, 0.08);
+ padding-top: 16px;
+ }
+ /* Sections common */
+ .section {
+ padding: 80px 0;
+ }
+ .section-title {
+ font-size: 2.2rem;
+ font-weight: 700;
+ color: #ffffff;
+ text-align: center;
+ margin-bottom: 16px;
+ }
+ .section-subtitle {
+ text-align: center;
+ color: #888;
+ font-size: 1rem;
+ max-width: 600px;
+ margin: 0 auto 48px;
+ }
+ /* Info Grid */
+ .info-grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 24px;
+ }
+ .info-card {
+ background: rgba(255, 255, 255, 0.02);
+ border: 1px solid rgba(255, 215, 0, 0.06);
+ border-radius: 12px;
+ padding: 32px 24px;
+ transition: all 0.3s ease;
+ }
+ .info-card:hover {
+ border-color: rgba(255, 215, 0, 0.2);
+ transform: translateY(-4px);
+ background: rgba(255, 255, 255, 0.04);
+ }
+ .info-card .card-icon {
+ font-size: 2rem;
+ margin-bottom: 16px;
+ display: block;
+ }
+ .info-card h3 {
+ font-size: 1.2rem;
+ font-weight: 600;
+ color: #ffffff;
+ margin-bottom: 12px;
+ }
+ .info-card p {
+ font-size: 0.9rem;
+ color: #999;
+ line-height: 1.6;
+ }
+ .info-card .highlight {
+ color: #ffd700;
+ font-weight: 500;
+ }
+ /* Data Table */
+ .data-table-wrap {
+ background: rgba(255, 255, 255, 0.02);
+ border: 1px solid rgba(255, 215, 0, 0.08);
+ border-radius: 12px;
+ overflow: hidden;
+ }
+ .data-table {
+ width: 100%;
+ border-collapse: collapse;
+ }
+ .data-table th {
+ background: rgba(255, 215, 0, 0.05);
+ color: #ffd700;
+ font-weight: 600;
+ padding: 16px 20px;
+ text-align: left;
+ font-size: 0.9rem;
+ letter-spacing: 0.5px;
+ }
+ .data-table td {
+ padding: 14px 20px;
+ border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+ color: #b0b0b0;
+ font-size: 0.9rem;
+ }
+ .data-table tr:last-child td {
+ border-bottom: none;
+ }
+ .data-table .metric {
+ color: #ffd700;
+ font-weight: 500;
+ }
+ /* FAQ */
+ .faq-list {
+ max-width: 800px;
+ margin: 0 auto;
+ }
+ .faq-item {
+ border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+ padding: 20px 0;
+ }
+ .faq-item:first-child {
+ border-top: 1px solid rgba(255, 255, 255, 0.06);
+ }
+ .faq-question {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ cursor: pointer;
+ font-size: 1rem;
+ font-weight: 500;
+ color: #ffffff;
+ user-select: none;
+ }
+ .faq-question .toggle {
+ color: #ffd700;
+ font-size: 1.2rem;
+ transition: transform 0.3s ease;
+ }
+ .faq-answer {
+ margin-top: 12px;
+ font-size: 0.9rem;
+ color: #999;
+ line-height: 1.7;
+ display: none;
+ }
+ .faq-answer.active {
+ display: block;
+ }
+ /* Footer */
+ footer {
+ background: #0a0a0a;
+ border-top: 1px solid rgba(255, 215, 0, 0.06);
+ padding: 40px 0;
+ text-align: center;
+ }
+ footer p {
+ color: #666;
+ font-size: 0.85rem;
+ letter-spacing: 0.3px;
+ }
+ footer .footer-tel {
+ color: #ffd700;
+ text-decoration: none;
+ font-weight: 600;
+ font-size: 1.1rem;
+ display: block;
+ margin-bottom: 8px;
+ }
+ /* Responsive */
+ @media (max-width: 768px) {
+ .nav-links {
+ display: none;
+ flex-direction: column;
+ background: rgba(10, 10, 10, 0.98);
+ position: absolute;
+ top: 64px;
+ left: 0;
+ width: 100%;
+ padding: 20px 24px;
+ gap: 16px;
+ border-bottom: 1px solid rgba(255, 215, 0, 0.08);
+ }
+ .nav-links.active {
+ display: flex;
+ }
+ .hamburger {
+ display: flex;
+ }
+ .hero-grid {
+ grid-template-columns: 1fr;
+ gap: 40px;
+ text-align: center;
+ }
+ .hero-content p {
+ margin: 0 auto 32px;
+ }
+ .hero-content h1 {
+ font-size: 2.2rem;
+ }
+ .info-grid {
+ grid-template-columns: 1fr;
+ }
+ .section-title {
+ font-size: 1.8rem;
+ }
+ .hero-visual .stat-block {
+ padding: 28px;
+ }
+ .hero-visual .stat-block .stat-number {
+ font-size: 2.8rem;
+ }
+ .data-table th, .data-table td {
+ padding: 12px 14px;
+ font-size: 0.8rem;
+ }
+ }
+ </style>
   <meta property="og:url" content="https://sf-t3-1779642675702-436.maphoshirts.xyz/about.html">
   <meta name="twitter:card" content="summary">
 </head>
 <body>
 
-<main><section class="hero"><div class="container hero-grid"><div class="hero-content"><h1>마포 셔츠룸 성우이벤트 프리미엄 시스템 안내</h1><p>이 페이지는 마포 지역에서 운영되는 셔츠룸 공간과 성우이벤트 프리미엄 시스템에 관한 기본 정보를 정리한 안내 자료입니다. 방문 전에 확인해두면 좋은 이용 절차와 공간 구성, 문의 방법을 아래에서 순서대로 소개합니다.</p><a class="cta-btn" href="tel:02-1234-5678">전화 문의 02-1234-5678</a></div><div class="hero-visual"><span class="card-icon">＋</span></div></div></section><section class="section"><div class="container"><h2 class="section-title">공간 구성 안내</h2><p class="section-subtitle">마포 셔츠룸은 목적에 따라 몇 가지 공간 유형으로 구분되어 운영됩니다. 아래 항목을 통해 전반적인 구성을 확인할 수 있습니다.</p><div class="info-grid"><div class="info-card"><span class="card-icon">1</span><h3>기본 응대 공간</h3><p>방문객을 처음 맞이하는 공간으로, 간단한 상담과 안내가 이루어집니다.</p></div><div class="info-card"><span class="card-icon">2</span><h3>성우이벤트 전용 구역</h3><p>음성·보이스 관련 행사나 프로그램 진행을 위해 별도로 마련된 구역입니다.</p></div><div class="info-card"><span class="card-icon">3</span><h3>프리미엄 시스템 구역</h3><p>보다 조용하고 격식을 갖춘 응대가 필요한 경우 이용되는 구역으로 안내됩니다.</p></div><div class="info-card"><span class="card-icon">4</span><h3>대기 및 문의 공간</h3><p>예약 확인, 일정 조율 등 사전 문의를 처리하는 공간입니다.</p></div></div></div></section><section class="section"><div class="container"><h2 class="section-title">기본 정보 요약</h2><div class="stat-block"><div><span class="stat-number">마포</span><span class="stat-label">지역</span><p class="stat-desc">서울 마포구 일대를 기준으로 안내됩니다.</p></div><div><span class="stat-number">성우이벤트</span><span class="stat-label">분야</span><p class="stat-desc">음성·보이스 콘텐츠 관련 행사를 특화 분야로 표기합니다.</p></div><div><span class="stat-number">프리미엄</span><span class="stat-label">운영 형태</span><p class="stat-desc">일반 구역과 구분된 상급 시스템으로 소개됩니다.</p></div></div></div></section><section class="section"><div class="container"><h2 class="section-title">가격이 결정되는 구조</h2><p>표시되는 비용은 이용 시간, 선택하는 구역, 동반 인원 수, 요청하는 진행 방식에 따라 달라질 수 있습니다. 정확한 금액은 방문 또는 문의 시점의 안내에 따르며, 이 페이지에서는 구체적인 액수를 임의로 제시하지 않습니다.</p><div class="data-table-wrap"><table class="data-table"><thead><tr><th>결정 요소</th><th>설명</th></tr></thead><tbody><tr><td class="metric">이용 시간</td><td>짧은 시간 이용과 장시간 이용은 안내 기준이 다르게 적용됩니다.</td></tr><tr><td class="metric">구역 선택</td><td>기본 구역과 프리미엄 구역은 구성과 인력 배치가 달라 비용 기준도 별도로 안내됩니다.</td></tr><tr><td class="metric">인원 구성</td><td>동반 인원이 많아질수록 추가로 확인이 필요한 항목이 늘어납니다.</td></tr><tr><td class="metric">사전 예약 여부</td><td>사전 예약과 당일 방문은 공간 배정 절차에서 차이가 있을 수 있습니다.</td></tr></tbody></table></div></div></section><section class="section"><div class="container"><h2 class="section-title">자주 묻는 질문</h2><div class="faq-list"><div class="faq-item"><p class="faq-question">전화로 먼저 문의할 수 있나요.</p><p class="faq-answer">02-1234-5678로 연락하면 공간 구성과 이용 절차에 대한 기본 안내를 받을 수 있습니다.</p></div><div class="faq-item"><p class="faq-question">성우이벤트 구역은 별도 예약이 필요한가요.</p><p class="faq-answer">전용 구역 이용을 원하는 경우 사전에 일정을 확인하는 것이 권장됩니다.</p></div><div class="faq-item"><p class="faq-question">마포 이외 지역에서도 방문할 수 있나요.</p><p class="faq-answer">지역 제한 없이 방문은 가능하나, 위치 안내는 마포 기준으로 제공됩니다.</p></div></div></div></section><p class="highlight">본 페이지는 방문 전 참고용 정보 제공을 목적으로 하며, 실제 운영 세부사항은 문의를 통해 확인하시기 바랍니다.</p><footer class="footer-tel">문의 전화 02-1234-5678</footer></main>
+<main><section class="hero"><div class="container hero-grid"><div class="hero-content"><h1>마포 셔츠룸 성우이벤트 프리미엄 시스템 안내</h1><p>이 페이지는 마포 지역에서 운영되는 셔츠룸 공간과 성우이벤트 프리미엄 시스템에 관한 기본 정보를 정리한 안내 자료입니다. 방문 전에 확인해두면 좋은 이용 절차와 공간 구성, 문의 방법을 아래에서 순서대로 소개합니다.</p></div><div class="hero-visual"><span class="card-icon">＋</span></div></div></section><section class="section"><div class="container"><h2 class="section-title">공간 구성 안내</h2><p class="section-subtitle">마포 셔츠룸은 목적에 따라 몇 가지 공간 유형으로 구분되어 운영됩니다. 아래 항목을 통해 전반적인 구성을 확인할 수 있습니다.</p><div class="info-grid"><div class="info-card"><span class="card-icon">1</span><h3>기본 응대 공간</h3><p>방문객을 처음 맞이하는 공간으로, 간단한 상담과 안내가 이루어집니다.</p></div><div class="info-card"><span class="card-icon">2</span><h3>성우이벤트 전용 구역</h3><p>음성·보이스 관련 행사나 프로그램 진행을 위해 별도로 마련된 구역입니다.</p></div><div class="info-card"><span class="card-icon">3</span><h3>프리미엄 시스템 구역</h3><p>보다 조용하고 격식을 갖춘 응대가 필요한 경우 이용되는 구역으로 안내됩니다.</p></div><div class="info-card"><span class="card-icon">4</span><h3>대기 및 문의 공간</h3><p>예약 확인, 일정 조율 등 사전 문의를 처리하는 공간입니다.</p></div></div></div></section><section class="section"><div class="container"><h2 class="section-title">기본 정보 요약</h2><div class="stat-block"><div><span class="stat-number">마포</span><span class="stat-label">지역</span><p class="stat-desc">서울 마포구 일대를 기준으로 안내됩니다.</p></div><div><span class="stat-number">성우이벤트</span><span class="stat-label">분야</span><p class="stat-desc">음성·보이스 콘텐츠 관련 행사를 특화 분야로 표기합니다.</p></div><div><span class="stat-number">프리미엄</span><span class="stat-label">운영 형태</span><p class="stat-desc">일반 구역과 구분된 상급 시스템으로 소개됩니다.</p></div></div></div></section><section class="section"><div class="container"><h2 class="section-title">가격이 결정되는 구조</h2><p>표시되는 비용은 이용 시간, 선택하는 구역, 동반 인원 수, 요청하는 진행 방식에 따라 달라질 수 있습니다. 정확한 금액은 방문 또는 문의 시점의 안내에 따르며, 이 페이지에서는 구체적인 액수를 임의로 제시하지 않습니다.</p><div class="data-table-wrap"><table class="data-table"><thead><tr><th>결정 요소</th><th>설명</th></tr></thead><tbody><tr><td class="metric">이용 시간</td><td>짧은 시간 이용과 장시간 이용은 안내 기준이 다르게 적용됩니다.</td></tr><tr><td class="metric">구역 선택</td><td>기본 구역과 프리미엄 구역은 구성과 인력 배치가 달라 비용 기준도 별도로 안내됩니다.</td></tr><tr><td class="metric">인원 구성</td><td>동반 인원이 많아질수록 추가로 확인이 필요한 항목이 늘어납니다.</td></tr><tr><td class="metric">사전 예약 여부</td><td>사전 예약과 당일 방문은 공간 배정 절차에서 차이가 있을 수 있습니다.</td></tr></tbody></table></div></div></section><section class="section"><div class="container"><h2 class="section-title">자주 묻는 질문</h2><div class="faq-list"><div class="faq-item"><p class="faq-question">전화로 먼저 문의할 수 있나요.</p></div><div class="faq-item"><p class="faq-question">성우이벤트 구역은 별도 예약이 필요한가요.</p><p class="faq-answer">전용 구역 이용을 원하는 경우 사전에 일정을 확인하는 것이 권장됩니다.</p></div><div class="faq-item"><p class="faq-question">마포 이외 지역에서도 방문할 수 있나요.</p><p class="faq-answer">지역 제한 없이 방문은 가능하나, 위치 안내는 마포 기준으로 제공됩니다.</p></div></div></div></section><p class="highlight">본 페이지는 방문 전 참고용 정보 제공을 목적으로 하며, 실제 운영 세부사항은 문의를 통해 확인하시기 바랍니다.</p><footer class="footer-tel"></footer></main>
 
 
 </body>
